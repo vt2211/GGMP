@@ -1,0 +1,25 @@
+{
+  "bundle_files": [
+    "temperature_station_gmm_bundle_K1.npz",
+    "temperature_station_gmm_bundle_K10.npz",
+    "temperature_station_gmm_bundle_K25.npz",
+    "temperature_station_gmm_bundle_K3.npz",
+    "temperature_station_gmm_bundle_K5.npz"
+  ],
+  "dataset": "temperature_extremes",
+  "ks": [
+    1,
+    10,
+    25,
+    3,
+    5
+  ],
+  "min_samples": 50,
+  "n_test": 1522,
+  "n_train": 6084,
+  "n_valid_stations": 7606,
+  "seed": 42,
+  "source_coords_file": "station_coord.npy",
+  "source_data_file": "data.npy",
+  "train_ratio": 0.8
+}
